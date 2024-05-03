@@ -1,0 +1,76 @@
+.taskwrapper{
+    width: 90%;
+    height: 100%;
+    position: relative;
+}
+.t-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.t-container h1{
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+}
+.task-list{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.t-category{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t-category h3{
+    font-size:30px;
+    color: grey;
+}
+.t-details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.t-details button{
+    
+    width: 80px;
+    padding: 2px 0;
+    border: 2px solid grey;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 400;
+    color: grey;
+}
+.active{
+    background: #fff;
+}
+.all-task{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.task-add{
+    width: 100%;
+    margin-top: 30px;
+}
+.task-add button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    color: grey;
+    border: 1px solid grey;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    background: transparent;
+}
+ 
